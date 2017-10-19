@@ -82,7 +82,7 @@ public class LoginStepDefinition {
 	}
 	
 	@After("@LoginSuccess")
-	public void deleteCreatedEmp() throws Throwable{
+	public void logout() throws Throwable{
 		dp.clickLogout();
 		Thread.sleep(2000);
 	}
