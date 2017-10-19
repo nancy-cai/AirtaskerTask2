@@ -1,0 +1,440 @@
+[
+  {
+    "source": "^user is on Login page$",
+    "steps": [
+      {
+        "name": "user is on Login page",
+        "aggregatedDurations": {
+          "average": 2.84100868,
+          "median": 2.093524148
+        },
+        "durations": [
+          {
+            "duration": 9.065912493,
+            "location": "Login.feature:4"
+          },
+          {
+            "duration": 2.129480296,
+            "location": "Login.feature:19"
+          },
+          {
+            "duration": 1.918922272,
+            "location": "Login.feature:19"
+          },
+          {
+            "duration": 2.480648296,
+            "location": "Login.feature:19"
+          },
+          {
+            "duration": 2.58210805,
+            "location": "Login.feature:35"
+          },
+          {
+            "duration": 2.093524148,
+            "location": "Login.feature:35"
+          },
+          {
+            "duration": 1.426765432,
+            "location": "Login.feature:35"
+          },
+          {
+            "duration": 1.938234074,
+            "location": "Login.feature:50"
+          },
+          {
+            "duration": 1.933483062,
+            "location": "Login.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should see \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "user should see \"Please enter your password\"",
+        "aggregatedDurations": {
+          "average": 1.146608988,
+          "median": 1.146608988
+        },
+        "durations": [
+          {
+            "duration": 1.146608988,
+            "location": "Login.feature:40"
+          }
+        ]
+      },
+      {
+        "name": "user should see \"Invalid Email\"",
+        "aggregatedDurations": {
+          "average": 1.15644023,
+          "median": 1.16956326
+        },
+        "durations": [
+          {
+            "duration": 1.127244642,
+            "location": "Login.feature:40"
+          },
+          {
+            "duration": 1.17251279,
+            "location": "Login.feature:40"
+          },
+          {
+            "duration": 1.16956326,
+            "location": "Login.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be loggedin after popup closed$",
+    "steps": [
+      {
+        "name": "user should be loggedin after popup closed",
+        "aggregatedDurations": {
+          "average": 8.265596049,
+          "median": 8.265596049
+        },
+        "durations": [
+          {
+            "duration": 8.265596049,
+            "location": "Login.feature:69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should see popup$",
+    "steps": [
+      {
+        "name": "user should see popup",
+        "aggregatedDurations": {
+          "average": 0.024781037,
+          "median": 0.024781037
+        },
+        "durations": [
+          {
+            "duration": 0.024781037,
+            "location": "Login.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks Login with Facebook$",
+    "steps": [
+      {
+        "name": "user clicks Login with Facebook",
+        "aggregatedDurations": {
+          "average": 0.150668642,
+          "median": 0.150668642
+        },
+        "durations": [
+          {
+            "duration": 0.150668642,
+            "location": "Login.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Login form displayed$",
+    "steps": [
+      {
+        "name": "Login form displayed",
+        "aggregatedDurations": {
+          "average": 0.250818677,
+          "median": 0.221391803
+        },
+        "durations": [
+          {
+            "duration": 0.425945284,
+            "location": "Login.feature:5"
+          },
+          {
+            "duration": 0.221391803,
+            "location": "Login.feature:20"
+          },
+          {
+            "duration": 0.144279309,
+            "location": "Login.feature:20"
+          },
+          {
+            "duration": 0.187694618,
+            "location": "Login.feature:20"
+          },
+          {
+            "duration": 0.15840079,
+            "location": "Login.feature:36"
+          },
+          {
+            "duration": 0.388103111,
+            "location": "Login.feature:36"
+          },
+          {
+            "duration": 0.237445531,
+            "location": "Login.feature:36"
+          },
+          {
+            "duration": 0.29423921,
+            "location": "Login.feature:51"
+          },
+          {
+            "duration": 0.199868444,
+            "location": "Login.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters username \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "user enters username \"cainaisi@gmail.com\"",
+        "aggregatedDurations": {
+          "average": 1.389004642,
+          "median": 1.364228346
+        },
+        "durations": [
+          {
+            "duration": 1.339729778,
+            "location": "Login.feature:6"
+          },
+          {
+            "duration": 1.463055803,
+            "location": "Login.feature:21"
+          },
+          {
+            "duration": 1.364228346,
+            "location": "Login.feature:37"
+          }
+        ]
+      },
+      {
+        "name": "user enters username \"cain@gmail.com\"",
+        "aggregatedDurations": {
+          "average": 1.359518025,
+          "median": 1.359518025
+        },
+        "durations": [
+          {
+            "duration": 1.367670914,
+            "location": "Login.feature:21"
+          },
+          {
+            "duration": 1.351365136,
+            "location": "Login.feature:21"
+          }
+        ]
+      },
+      {
+        "name": "user enters username \"\"",
+        "aggregatedDurations": {
+          "average": 1.146677926,
+          "median": 1.146677926
+        },
+        "durations": [
+          {
+            "duration": 1.147817877,
+            "location": "Login.feature:37"
+          },
+          {
+            "duration": 1.145537975,
+            "location": "Login.feature:37"
+          }
+        ]
+      },
+      {
+        "name": "user enters username \"cainaisi@gmail\"",
+        "aggregatedDurations": {
+          "average": 1.309707062,
+          "median": 1.309707062
+        },
+        "durations": [
+          {
+            "duration": 1.309707062,
+            "location": "Login.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks the Login button$",
+    "steps": [
+      {
+        "name": "user clicks the Login button",
+        "aggregatedDurations": {
+          "average": 0.139159604,
+          "median": 0.125373827
+        },
+        "durations": [
+          {
+            "duration": 0.123023802,
+            "location": "Login.feature:8"
+          },
+          {
+            "duration": 0.127723852,
+            "location": "Login.feature:23"
+          },
+          {
+            "duration": 0.147800099,
+            "location": "Login.feature:23"
+          },
+          {
+            "duration": 0.196414815,
+            "location": "Login.feature:23"
+          },
+          {
+            "duration": 0.101556938,
+            "location": "Login.feature:39"
+          },
+          {
+            "duration": 0.113716938,
+            "location": "Login.feature:39"
+          },
+          {
+            "duration": 0.120552296,
+            "location": "Login.feature:39"
+          },
+          {
+            "duration": 0.182488099,
+            "location": "Login.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters password\"(.*?)\"$",
+    "steps": [
+      {
+        "name": "user enters password\"test1234\"",
+        "aggregatedDurations": {
+          "average": 0.175183209,
+          "median": 0.169880691
+        },
+        "durations": [
+          {
+            "duration": 0.182461629,
+            "location": "Login.feature:7"
+          },
+          {
+            "duration": 0.222035753,
+            "location": "Login.feature:22"
+          },
+          {
+            "duration": 0.138935704,
+            "location": "Login.feature:38"
+          },
+          {
+            "duration": 0.157299753,
+            "location": "Login.feature:53"
+          }
+        ]
+      },
+      {
+        "name": "user enters password\"test12\"",
+        "aggregatedDurations": {
+          "average": 0.201439605,
+          "median": 0.201439605
+        },
+        "durations": [
+          {
+            "duration": 0.177561284,
+            "location": "Login.feature:22"
+          },
+          {
+            "duration": 0.225317926,
+            "location": "Login.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "user enters password\"\"",
+        "aggregatedDurations": {
+          "average": 0.085607111,
+          "median": 0.085607111
+        },
+        "durations": [
+          {
+            "duration": 0.093748148,
+            "location": "Login.feature:38"
+          },
+          {
+            "duration": 0.077466074,
+            "location": "Login.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should see the greeting message$",
+    "steps": [
+      {
+        "name": "user should see the greeting message",
+        "aggregatedDurations": {
+          "average": 4.094552889,
+          "median": 4.094552889
+        },
+        "durations": [
+          {
+            "duration": 4.094552889,
+            "location": "Login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters valid FB credentials$",
+    "steps": [
+      {
+        "name": "user enters valid FB credentials",
+        "aggregatedDurations": {
+          "average": 8.422737383,
+          "median": 8.422737383
+        },
+        "durations": [
+          {
+            "duration": 8.422737383,
+            "location": "Login.feature:68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should see modal with \"(.*?)\"$",
+    "steps": [
+      {
+        "name": "user should see modal with \"Incorrect Password\"",
+        "aggregatedDurations": {
+          "average": 1.142291622,
+          "median": 1.13141847
+        },
+        "durations": [
+          {
+            "duration": 1.169349531,
+            "location": "Login.feature:24"
+          },
+          {
+            "duration": 1.126106865,
+            "location": "Login.feature:24"
+          },
+          {
+            "duration": 1.13141847,
+            "location": "Login.feature:24"
+          }
+        ]
+      }
+    ]
+  }
+]

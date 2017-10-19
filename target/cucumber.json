@@ -1,0 +1,1022 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login;login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4521467260,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.deleteCreatedEmp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9065912493,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 425945284,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login form displayed",
+            "match": {
+              "location": "LoginStepDefinition.login_form_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1339729778,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username \"cainaisi@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cainaisi@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182461629,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters password\"test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123023802,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4094552889,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should see the greeting message",
+            "match": {
+              "location": "LoginStepDefinition.user_should_see_the_greeting_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@LoginSuccess"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2129480296,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221391803,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Login form displayed",
+            "match": {
+              "location": "LoginStepDefinition.login_form_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1463055803,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters username \"cainaisi@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cainaisi@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177561284,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters password\"test12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test12",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127723852,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1169349531,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should see modal with \"Incorrect Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Incorrect Password",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_should_see_modal_with(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@LoginFailureWrongCredential"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1918922272,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144279309,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Login form displayed",
+            "match": {
+              "location": "LoginStepDefinition.login_form_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1367670914,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters username \"cain@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cain@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222035753,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters password\"test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147800099,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1126106865,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should see modal with \"Incorrect Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Incorrect Password",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_should_see_modal_with(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@LoginFailureWrongCredential"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2480648296,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187694618,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Login form displayed",
+            "match": {
+              "location": "LoginStepDefinition.login_form_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1351365136,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters username \"cain@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cain@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 225317926,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters password\"test12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test12",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196414815,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1131418470,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should see modal with \"Incorrect Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Incorrect Password",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_should_see_modal_with(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@LoginFailureWrongCredential"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "Failed login with empty credential",
+        "description": "",
+        "id": "login;failed-login-with-empty-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2582108050,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158400790,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Login form displayed",
+            "match": {
+              "location": "LoginStepDefinition.login_form_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1364228346,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enters username \"cainaisi@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cainaisi@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93748148,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user enters password\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101556938,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user clicks the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1146608988,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user should see \"Please enter your password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter your password",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStepDefinition.user_should_see(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@LoginFailureEmptyCredential"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Failed login with empty credential",
+        "description": "",
+        "id": "login;failed-login-with-empty-credential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2093524148,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 388103111,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Login form displayed",
+            "match": {
+              "location": "LoginStepDefinition.login_form_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1147817877,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enters username \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138935704,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user enters password\"test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113716938,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user clicks the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1127244642,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user should see \"Invalid Email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid Email",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStepDefinition.user_should_see(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@LoginFailureEmptyCredential"
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "Failed login with empty credential",
+        "description": "",
+        "id": "login;failed-login-with-empty-credential;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1426765432,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237445531,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Login form displayed",
+            "match": {
+              "location": "LoginStepDefinition.login_form_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1145537975,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enters username \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77466074,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user enters password\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120552296,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user clicks the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1172512790,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user should see \"Invalid Email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid Email",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStepDefinition.user_should_see(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@LoginFailureEmptyCredential"
+          }
+        ]
+      },
+      {
+        "line": 59,
+        "name": "Failed login due to invalid Email or Pasword format",
+        "description": "",
+        "id": "login;failed-login-due-to-invalid-email-or-pasword-format;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1938234074,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 294239210,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Login form displayed",
+            "match": {
+              "location": "LoginStepDefinition.login_form_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1309707062,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user enters username \"cainaisi@gmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cainaisi@gmail",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157299753,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user enters password\"test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182488099,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user clicks the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1169563260,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user should see \"Invalid Email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid Email",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStepDefinition.user_should_see(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 48,
+            "name": "@LoginFailureFieldValidation"
+          }
+        ]
+      },
+      {
+        "line": 63,
+        "name": "Login using Facebook account",
+        "description": "",
+        "id": "login;login-using-facebook-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1933483062,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "user is on Login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199868444,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Login form displayed",
+            "match": {
+              "location": "LoginStepDefinition.login_form_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150668642,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user clicks Login with Facebook",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_Login_with_Facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24781037,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user should see popup",
+            "match": {
+              "location": "LoginStepDefinition.user_should_see_popup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8422737383,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user enters valid FB credentials",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_valid_FB_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8265596049,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user should be loggedin after popup closed",
+            "match": {
+              "location": "LoginStepDefinition.user_should_be_loggedin_after_popup_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 62,
+            "name": "@loginWithFB"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
