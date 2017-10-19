@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="74.226269">
-<testcase classname="Login" name="Login with valid credentials" time="19.753093">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="74.198289">
+<testcase classname="Login" name="Login with valid credentials" time="21.061656">
 <system-out><![CDATA[Given user is on Login page.................................................passed
 And Login form displayed....................................................passed
 When user enters username "cainaisi@gmail.com"..............................passed
@@ -8,7 +8,7 @@ And user clicks the Login button............................................pass
 Then user should see the greeting message...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Login with invalid credentials" time="5.288563">
+<testcase classname="Login" name="Login with invalid credentials" time="5.297489">
 <system-out><![CDATA[Given user is on Login page.................................................passed
 And Login form displayed....................................................passed
 When user enters username "cainaisi@gmail.com"..............................passed
@@ -17,7 +17,7 @@ And user clicks the Login button............................................pass
 Then user should see modal with "Incorrect Password"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Login with invalid credentials 2" time="4.926815">
+<testcase classname="Login" name="Login with invalid credentials 2" time="5.816231">
 <system-out><![CDATA[Given user is on Login page.................................................passed
 And Login form displayed....................................................passed
 When user enters username "cain@gmail.com"..................................passed
@@ -26,7 +26,7 @@ And user clicks the Login button............................................pass
 Then user should see modal with "Incorrect Password"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Login with invalid credentials 3" time="5.572859">
+<testcase classname="Login" name="Login with invalid credentials 3" time="5.361113">
 <system-out><![CDATA[Given user is on Login page.................................................passed
 And Login form displayed....................................................passed
 When user enters username "cain@gmail.com"..................................passed
@@ -35,7 +35,7 @@ And user clicks the Login button............................................pass
 Then user should see modal with "Incorrect Password"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Failed login with empty credential" time="5.446651">
+<testcase classname="Login" name="Failed login with empty credential" time="5.218773">
 <system-out><![CDATA[Given user is on Login page.................................................passed
 And Login form displayed....................................................passed
 When user enters username "cainaisi@gmail.com"..............................passed
@@ -44,7 +44,7 @@ And user clicks the Login button............................................pass
 Then user should see "Please enter your password"...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Failed login with empty credential 2" time="5.009342">
+<testcase classname="Login" name="Failed login with empty credential 2" time="4.665508">
 <system-out><![CDATA[Given user is on Login page.................................................passed
 And Login form displayed....................................................passed
 When user enters username ""................................................passed
@@ -53,7 +53,7 @@ And user clicks the Login button............................................pass
 Then user should see "Invalid Email"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Failed login with empty credential 3" time="4.18028">
+<testcase classname="Login" name="Failed login with empty credential 3" time="4.647869">
 <system-out><![CDATA[Given user is on Login page.................................................passed
 And Login form displayed....................................................passed
 When user enters username ""................................................passed
@@ -62,7 +62,7 @@ And user clicks the Login button............................................pass
 Then user should see "Invalid Email"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Failed login due to invalid Email or Pasword format" time="5.051531">
+<testcase classname="Login" name="Failed login due to invalid Email or Pasword format" time="5.049758">
 <system-out><![CDATA[Given user is on Login page.................................................passed
 And Login form displayed....................................................passed
 When user enters username "cainaisi@gmail"..................................passed
@@ -71,7 +71,7 @@ And user clicks the Login button............................................pass
 Then user should see "Invalid Email"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Login using Facebook account" time="18.997135">
+<testcase classname="Login" name="Login using Facebook account" time="17.079892">
 <system-out><![CDATA[Given user is on Login page.................................................passed
 And Login form displayed....................................................passed
 When user clicks Login with Facebook........................................passed

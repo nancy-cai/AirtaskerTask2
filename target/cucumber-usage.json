@@ -5,45 +5,45 @@
       {
         "name": "user is on Login page",
         "aggregatedDurations": {
-          "average": 2.84100868,
-          "median": 2.093524148
+          "average": 3.060341728,
+          "median": 2.092275358
         },
         "durations": [
           {
-            "duration": 9.065912493,
-            "location": "Login.feature:4"
+            "duration": 10.437927901,
+            "location": "src/test/resources/Feature/Login.feature:4"
           },
           {
-            "duration": 2.129480296,
-            "location": "Login.feature:19"
+            "duration": 2.366446618,
+            "location": "src/test/resources/Feature/Login.feature:19"
           },
           {
-            "duration": 1.918922272,
-            "location": "Login.feature:19"
+            "duration": 2.671766123,
+            "location": "src/test/resources/Feature/Login.feature:19"
           },
           {
-            "duration": 2.480648296,
-            "location": "Login.feature:19"
+            "duration": 2.235580049,
+            "location": "src/test/resources/Feature/Login.feature:19"
           },
           {
-            "duration": 2.58210805,
-            "location": "Login.feature:35"
+            "duration": 2.013298173,
+            "location": "src/test/resources/Feature/Login.feature:35"
           },
           {
-            "duration": 2.093524148,
-            "location": "Login.feature:35"
+            "duration": 1.948736,
+            "location": "src/test/resources/Feature/Login.feature:35"
           },
           {
-            "duration": 1.426765432,
-            "location": "Login.feature:35"
+            "duration": 1.860993185,
+            "location": "src/test/resources/Feature/Login.feature:35"
           },
           {
-            "duration": 1.938234074,
-            "location": "Login.feature:50"
+            "duration": 2.092275358,
+            "location": "src/test/resources/Feature/Login.feature:50"
           },
           {
-            "duration": 1.933483062,
-            "location": "Login.feature:64"
+            "duration": 1.916052148,
+            "location": "src/test/resources/Feature/Login.feature:64"
           }
         ]
       }
@@ -55,34 +55,34 @@
       {
         "name": "user should see \"Please enter your password\"",
         "aggregatedDurations": {
-          "average": 1.146608988,
-          "median": 1.146608988
+          "average": 1.178412642,
+          "median": 1.178412642
         },
         "durations": [
           {
-            "duration": 1.146608988,
-            "location": "Login.feature:40"
+            "duration": 1.178412642,
+            "location": "src/test/resources/Feature/Login.feature:40"
           }
         ]
       },
       {
         "name": "user should see \"Invalid Email\"",
         "aggregatedDurations": {
-          "average": 1.15644023,
-          "median": 1.16956326
+          "average": 1.135055012,
+          "median": 1.135440198
         },
         "durations": [
           {
-            "duration": 1.127244642,
-            "location": "Login.feature:40"
+            "duration": 1.138422123,
+            "location": "src/test/resources/Feature/Login.feature:40"
           },
           {
-            "duration": 1.17251279,
-            "location": "Login.feature:40"
+            "duration": 1.131302716,
+            "location": "src/test/resources/Feature/Login.feature:40"
           },
           {
-            "duration": 1.16956326,
-            "location": "Login.feature:55"
+            "duration": 1.135440198,
+            "location": "src/test/resources/Feature/Login.feature:55"
           }
         ]
       }
@@ -94,13 +94,13 @@
       {
         "name": "user should be loggedin after popup closed",
         "aggregatedDurations": {
-          "average": 8.265596049,
-          "median": 8.265596049
+          "average": 8.265359012,
+          "median": 8.265359012
         },
         "durations": [
           {
-            "duration": 8.265596049,
-            "location": "Login.feature:69"
+            "duration": 8.265359012,
+            "location": "src/test/resources/Feature/Login.feature:69"
           }
         ]
       }
@@ -112,13 +112,13 @@
       {
         "name": "user should see popup",
         "aggregatedDurations": {
-          "average": 0.024781037,
-          "median": 0.024781037
+          "average": 0.039265185,
+          "median": 0.039265185
         },
         "durations": [
           {
-            "duration": 0.024781037,
-            "location": "Login.feature:67"
+            "duration": 0.039265185,
+            "location": "src/test/resources/Feature/Login.feature:67"
           }
         ]
       }
@@ -130,13 +130,13 @@
       {
         "name": "user clicks Login with Facebook",
         "aggregatedDurations": {
-          "average": 0.150668642,
-          "median": 0.150668642
+          "average": 0.277870617,
+          "median": 0.277870617
         },
         "durations": [
           {
-            "duration": 0.150668642,
-            "location": "Login.feature:66"
+            "duration": 0.277870617,
+            "location": "src/test/resources/Feature/Login.feature:66"
           }
         ]
       }
@@ -148,45 +148,45 @@
       {
         "name": "Login form displayed",
         "aggregatedDurations": {
-          "average": 0.250818677,
-          "median": 0.221391803
+          "average": 0.223392746,
+          "median": 0.206985877
         },
         "durations": [
           {
-            "duration": 0.425945284,
-            "location": "Login.feature:5"
+            "duration": 0.304830025,
+            "location": "src/test/resources/Feature/Login.feature:5"
           },
           {
-            "duration": 0.221391803,
-            "location": "Login.feature:20"
+            "duration": 0.270672197,
+            "location": "src/test/resources/Feature/Login.feature:20"
           },
           {
-            "duration": 0.144279309,
-            "location": "Login.feature:20"
+            "duration": 0.188696889,
+            "location": "src/test/resources/Feature/Login.feature:20"
           },
           {
-            "duration": 0.187694618,
-            "location": "Login.feature:20"
+            "duration": 0.157159902,
+            "location": "src/test/resources/Feature/Login.feature:20"
           },
           {
-            "duration": 0.15840079,
-            "location": "Login.feature:36"
+            "duration": 0.332396642,
+            "location": "src/test/resources/Feature/Login.feature:36"
           },
           {
-            "duration": 0.388103111,
-            "location": "Login.feature:36"
+            "duration": 0.172090469,
+            "location": "src/test/resources/Feature/Login.feature:36"
           },
           {
-            "duration": 0.237445531,
-            "location": "Login.feature:36"
+            "duration": 0.164408494,
+            "location": "src/test/resources/Feature/Login.feature:36"
           },
           {
-            "duration": 0.29423921,
-            "location": "Login.feature:51"
+            "duration": 0.206985877,
+            "location": "src/test/resources/Feature/Login.feature:51"
           },
           {
-            "duration": 0.199868444,
-            "location": "Login.feature:65"
+            "duration": 0.213294222,
+            "location": "src/test/resources/Feature/Login.feature:65"
           }
         ]
       }
@@ -198,68 +198,68 @@
       {
         "name": "user enters username \"cainaisi@gmail.com\"",
         "aggregatedDurations": {
-          "average": 1.389004642,
-          "median": 1.364228346
+          "average": 1.378878025,
+          "median": 1.371331161
         },
         "durations": [
           {
-            "duration": 1.339729778,
-            "location": "Login.feature:6"
+            "duration": 1.371331161,
+            "location": "src/test/resources/Feature/Login.feature:6"
           },
           {
-            "duration": 1.463055803,
-            "location": "Login.feature:21"
+            "duration": 1.33852958,
+            "location": "src/test/resources/Feature/Login.feature:21"
           },
           {
-            "duration": 1.364228346,
-            "location": "Login.feature:37"
+            "duration": 1.426773334,
+            "location": "src/test/resources/Feature/Login.feature:37"
           }
         ]
       },
       {
         "name": "user enters username \"cain@gmail.com\"",
         "aggregatedDurations": {
-          "average": 1.359518025,
-          "median": 1.359518025
+          "average": 1.385607703,
+          "median": 1.385607703
         },
         "durations": [
           {
-            "duration": 1.367670914,
-            "location": "Login.feature:21"
+            "duration": 1.364997136,
+            "location": "src/test/resources/Feature/Login.feature:21"
           },
           {
-            "duration": 1.351365136,
-            "location": "Login.feature:21"
+            "duration": 1.406218271,
+            "location": "src/test/resources/Feature/Login.feature:21"
           }
         ]
       },
       {
         "name": "user enters username \"\"",
         "aggregatedDurations": {
-          "average": 1.146677926,
-          "median": 1.146677926
+          "average": 1.196543605,
+          "median": 1.196543605
         },
         "durations": [
           {
-            "duration": 1.147817877,
-            "location": "Login.feature:37"
+            "duration": 1.184696889,
+            "location": "src/test/resources/Feature/Login.feature:37"
           },
           {
-            "duration": 1.145537975,
-            "location": "Login.feature:37"
+            "duration": 1.208390321,
+            "location": "src/test/resources/Feature/Login.feature:37"
           }
         ]
       },
       {
         "name": "user enters username \"cainaisi@gmail\"",
         "aggregatedDurations": {
-          "average": 1.309707062,
-          "median": 1.309707062
+          "average": 1.311786667,
+          "median": 1.311786667
         },
         "durations": [
           {
-            "duration": 1.309707062,
-            "location": "Login.feature:52"
+            "duration": 1.311786667,
+            "location": "src/test/resources/Feature/Login.feature:52"
           }
         ]
       }
@@ -271,41 +271,41 @@
       {
         "name": "user clicks the Login button",
         "aggregatedDurations": {
-          "average": 0.139159604,
-          "median": 0.125373827
+          "average": 0.149547259,
+          "median": 0.155784493
         },
         "durations": [
           {
-            "duration": 0.123023802,
-            "location": "Login.feature:8"
+            "duration": 0.182164938,
+            "location": "src/test/resources/Feature/Login.feature:8"
           },
           {
-            "duration": 0.127723852,
-            "location": "Login.feature:23"
+            "duration": 0.098313877,
+            "location": "src/test/resources/Feature/Login.feature:23"
           },
           {
-            "duration": 0.147800099,
-            "location": "Login.feature:23"
+            "duration": 0.19209758,
+            "location": "src/test/resources/Feature/Login.feature:23"
           },
           {
-            "duration": 0.196414815,
-            "location": "Login.feature:23"
+            "duration": 0.174185876,
+            "location": "src/test/resources/Feature/Login.feature:23"
           },
           {
-            "duration": 0.101556938,
-            "location": "Login.feature:39"
+            "duration": 0.142008889,
+            "location": "src/test/resources/Feature/Login.feature:39"
           },
           {
-            "duration": 0.113716938,
-            "location": "Login.feature:39"
+            "duration": 0.096037926,
+            "location": "src/test/resources/Feature/Login.feature:39"
           },
           {
-            "duration": 0.120552296,
-            "location": "Login.feature:39"
+            "duration": 0.162364444,
+            "location": "src/test/resources/Feature/Login.feature:39"
           },
           {
-            "duration": 0.182488099,
-            "location": "Login.feature:54"
+            "duration": 0.149204543,
+            "location": "src/test/resources/Feature/Login.feature:54"
           }
         ]
       }
@@ -317,59 +317,59 @@
       {
         "name": "user enters password\"test1234\"",
         "aggregatedDurations": {
-          "average": 0.175183209,
-          "median": 0.169880691
+          "average": 0.173712493,
+          "median": 0.157986765
         },
         "durations": [
           {
-            "duration": 0.182461629,
-            "location": "Login.feature:7"
+            "duration": 0.161907754,
+            "location": "src/test/resources/Feature/Login.feature:7"
           },
           {
-            "duration": 0.222035753,
-            "location": "Login.feature:22"
+            "duration": 0.253351506,
+            "location": "src/test/resources/Feature/Login.feature:22"
           },
           {
-            "duration": 0.138935704,
-            "location": "Login.feature:38"
+            "duration": 0.125524938,
+            "location": "src/test/resources/Feature/Login.feature:38"
           },
           {
-            "duration": 0.157299753,
-            "location": "Login.feature:53"
+            "duration": 0.154065777,
+            "location": "src/test/resources/Feature/Login.feature:53"
           }
         ]
       },
       {
         "name": "user enters password\"test12\"",
         "aggregatedDurations": {
-          "average": 0.201439605,
-          "median": 0.201439605
+          "average": 0.15449758,
+          "median": 0.15449758
         },
         "durations": [
           {
-            "duration": 0.177561284,
-            "location": "Login.feature:22"
+            "duration": 0.083190124,
+            "location": "src/test/resources/Feature/Login.feature:22"
           },
           {
-            "duration": 0.225317926,
-            "location": "Login.feature:22"
+            "duration": 0.225805037,
+            "location": "src/test/resources/Feature/Login.feature:22"
           }
         ]
       },
       {
         "name": "user enters password\"\"",
         "aggregatedDurations": {
-          "average": 0.085607111,
-          "median": 0.085607111
+          "average": 0.123146667,
+          "median": 0.123146667
         },
         "durations": [
           {
-            "duration": 0.093748148,
-            "location": "Login.feature:38"
+            "duration": 0.12588326,
+            "location": "src/test/resources/Feature/Login.feature:38"
           },
           {
-            "duration": 0.077466074,
-            "location": "Login.feature:38"
+            "duration": 0.120410074,
+            "location": "src/test/resources/Feature/Login.feature:38"
           }
         ]
       }
@@ -381,13 +381,13 @@
       {
         "name": "user should see the greeting message",
         "aggregatedDurations": {
-          "average": 4.094552889,
-          "median": 4.094552889
+          "average": 4.153850469,
+          "median": 4.153850469
         },
         "durations": [
           {
-            "duration": 4.094552889,
-            "location": "Login.feature:9"
+            "duration": 4.153850469,
+            "location": "src/test/resources/Feature/Login.feature:9"
           }
         ]
       }
@@ -399,13 +399,13 @@
       {
         "name": "user enters valid FB credentials",
         "aggregatedDurations": {
-          "average": 8.422737383,
-          "median": 8.422737383
+          "average": 6.368050567,
+          "median": 6.368050567
         },
         "durations": [
           {
-            "duration": 8.422737383,
-            "location": "Login.feature:68"
+            "duration": 6.368050567,
+            "location": "src/test/resources/Feature/Login.feature:68"
           }
         ]
       }
@@ -417,21 +417,21 @@
       {
         "name": "user should see modal with \"Incorrect Password\"",
         "aggregatedDurations": {
-          "average": 1.142291622,
-          "median": 1.13141847
+          "average": 1.14927381,
+          "median": 1.145321482
         },
         "durations": [
           {
-            "duration": 1.169349531,
-            "location": "Login.feature:24"
+            "duration": 1.140336197,
+            "location": "src/test/resources/Feature/Login.feature:24"
           },
           {
-            "duration": 1.126106865,
-            "location": "Login.feature:24"
+            "duration": 1.145321482,
+            "location": "src/test/resources/Feature/Login.feature:24"
           },
           {
-            "duration": 1.13141847,
-            "location": "Login.feature:24"
+            "duration": 1.162163753,
+            "location": "src/test/resources/Feature/Login.feature:24"
           }
         ]
       }

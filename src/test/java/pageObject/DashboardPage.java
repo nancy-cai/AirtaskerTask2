@@ -17,9 +17,9 @@ public class DashboardPage {
 	}
 	
 	public void checkGreetingMsg(String name) throws Throwable {   
-		wait.waitLoop(greeting);
-	    String greetMsg = greeting.getText();
-	    assertEquals("Hi "+ name, greetMsg);
+		wait.waitLoop(dashboard);
+	    String greetMsg = dashboard.getText();
+	    assertEquals("What do you need done today "+ name+"?", greetMsg);
 	    Thread.sleep(3000);
 	}
 	
@@ -29,8 +29,8 @@ public class DashboardPage {
 		Thread.sleep(2000);
 	}
 	
-	@FindBy(xpath="//*[@id='page-and-screen-content']/div[1]/div/div[3]/div[2]/div[5]/div/div[1]/div/h3")
-	WebElement greeting;
+	@FindBy(className="dashboard-title")
+	WebElement dashboard;
 	
 	@FindBy(className="avatar")
 	WebElement avatar;

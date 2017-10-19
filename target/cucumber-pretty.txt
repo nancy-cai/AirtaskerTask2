@@ -1,7 +1,7 @@
 Feature: Login
 
   @LoginSuccess
-  Scenario Outline: Login with valid credentials [90m# Login.feature:3[0m
+  Scenario Outline: Login with valid credentials [90m# src/test/resources/Feature/Login.feature:3[0m
     [36mGiven [0m[36muser is on Login page[0m
     [36mAnd [0m[36mLogin form displayed[0m
     [36mWhen [0m[36muser enters username "<userName>"[0m
@@ -12,7 +12,7 @@ Feature: Login
     Examples: 
 
   @LoginSuccess
-  Scenario Outline: Login with valid credentials   [90m# Login.feature:14[0m
+  Scenario Outline: Login with valid credentials   [90m# src/test/resources/Feature/Login.feature:14[0m
     [32mGiven [0m[32muser is on Login page[0m                    [90m# LoginStepDefinition.user_is_on_Login_page()[0m
     [32mAnd [0m[32mLogin form displayed[0m                       [90m# LoginStepDefinition.login_form_displayed()[0m
     [32mWhen [0m[32muser enters username "[0m[32m[1mcainaisi@gmail.com[0m[32m"[0m [90m# LoginStepDefinition.user_enters_username(String)[0m
@@ -21,7 +21,7 @@ Feature: Login
     [32mThen [0m[32muser should see the greeting message[0m      [90m# LoginStepDefinition.user_should_see_the_greeting_message()[0m
 
   @LoginFailureWrongCredential
-  Scenario Outline: Login with invalid credentials   [90m# Login.feature:18[0m
+  Scenario Outline: Login with invalid credentials   [90m# src/test/resources/Feature/Login.feature:18[0m
     [36mGiven [0m[36muser is on Login page[0m
     [36mAnd [0m[36mLogin form displayed[0m
     [36mWhen [0m[36muser enters username "<userName>"[0m
@@ -32,7 +32,7 @@ Feature: Login
     Examples: 
 
   @LoginFailureWrongCredential
-  Scenario Outline: Login with invalid credentials       [90m# Login.feature:28[0m
+  Scenario Outline: Login with invalid credentials       [90m# src/test/resources/Feature/Login.feature:28[0m
     [32mGiven [0m[32muser is on Login page[0m                          [90m# LoginStepDefinition.user_is_on_Login_page()[0m
     [32mAnd [0m[32mLogin form displayed[0m                             [90m# LoginStepDefinition.login_form_displayed()[0m
     [32mWhen [0m[32muser enters username "[0m[32m[1mcainaisi@gmail.com[0m[32m"[0m       [90m# LoginStepDefinition.user_enters_username(String)[0m
@@ -41,7 +41,7 @@ Feature: Login
     [32mThen [0m[32muser should see modal with "[0m[32m[1mIncorrect Password[0m[32m"[0m [90m# LoginStepDefinition.user_should_see_modal_with(String)[0m
 
   @LoginFailureWrongCredential
-  Scenario Outline: Login with invalid credentials       [90m# Login.feature:29[0m
+  Scenario Outline: Login with invalid credentials       [90m# src/test/resources/Feature/Login.feature:29[0m
     [32mGiven [0m[32muser is on Login page[0m                          [90m# LoginStepDefinition.user_is_on_Login_page()[0m
     [32mAnd [0m[32mLogin form displayed[0m                             [90m# LoginStepDefinition.login_form_displayed()[0m
     [32mWhen [0m[32muser enters username "[0m[32m[1mcain@gmail.com[0m[32m"[0m           [90m# LoginStepDefinition.user_enters_username(String)[0m
@@ -50,7 +50,7 @@ Feature: Login
     [32mThen [0m[32muser should see modal with "[0m[32m[1mIncorrect Password[0m[32m"[0m [90m# LoginStepDefinition.user_should_see_modal_with(String)[0m
 
   @LoginFailureWrongCredential
-  Scenario Outline: Login with invalid credentials       [90m# Login.feature:30[0m
+  Scenario Outline: Login with invalid credentials       [90m# src/test/resources/Feature/Login.feature:30[0m
     [32mGiven [0m[32muser is on Login page[0m                          [90m# LoginStepDefinition.user_is_on_Login_page()[0m
     [32mAnd [0m[32mLogin form displayed[0m                             [90m# LoginStepDefinition.login_form_displayed()[0m
     [32mWhen [0m[32muser enters username "[0m[32m[1mcain@gmail.com[0m[32m"[0m           [90m# LoginStepDefinition.user_enters_username(String)[0m
@@ -59,7 +59,7 @@ Feature: Login
     [32mThen [0m[32muser should see modal with "[0m[32m[1mIncorrect Password[0m[32m"[0m [90m# LoginStepDefinition.user_should_see_modal_with(String)[0m
 
   @LoginFailureEmptyCredential
-  Scenario Outline: Failed login with empty credential [90m# Login.feature:34[0m
+  Scenario Outline: Failed login with empty credential [90m# src/test/resources/Feature/Login.feature:34[0m
     [36mGiven [0m[36muser is on Login page[0m
     [36mAnd [0m[36mLogin form displayed[0m
     [36mWhen [0m[36muser enters username "<userName>"[0m
@@ -70,7 +70,7 @@ Feature: Login
     Examples: 
 
   @LoginFailureEmptyCredential
-  Scenario Outline: Failed login with empty credential [90m# Login.feature:44[0m
+  Scenario Outline: Failed login with empty credential [90m# src/test/resources/Feature/Login.feature:44[0m
     [32mGiven [0m[32muser is on Login page[0m                        [90m# LoginStepDefinition.user_is_on_Login_page()[0m
     [32mAnd [0m[32mLogin form displayed[0m                           [90m# LoginStepDefinition.login_form_displayed()[0m
     [32mWhen [0m[32muser enters username "[0m[32m[1mcainaisi@gmail.com[0m[32m"[0m     [90m# LoginStepDefinition.user_enters_username(String)[0m
@@ -79,7 +79,7 @@ Feature: Login
     [32mThen [0m[32muser should see "[0m[32m[1mPlease enter your password[0m[32m"[0m  [90m# LoginStepDefinition.user_should_see(String)[0m
 
   @LoginFailureEmptyCredential
-  Scenario Outline: Failed login with empty credential [90m# Login.feature:45[0m
+  Scenario Outline: Failed login with empty credential [90m# src/test/resources/Feature/Login.feature:45[0m
     [32mGiven [0m[32muser is on Login page[0m                        [90m# LoginStepDefinition.user_is_on_Login_page()[0m
     [32mAnd [0m[32mLogin form displayed[0m                           [90m# LoginStepDefinition.login_form_displayed()[0m
     [32mWhen [0m[32muser enters username "[0m[32m[1m[0m[32m"[0m                       [90m# LoginStepDefinition.user_enters_username(String)[0m
@@ -88,7 +88,7 @@ Feature: Login
     [32mThen [0m[32muser should see "[0m[32m[1mInvalid Email[0m[32m"[0m               [90m# LoginStepDefinition.user_should_see(String)[0m
 
   @LoginFailureEmptyCredential
-  Scenario Outline: Failed login with empty credential [90m# Login.feature:46[0m
+  Scenario Outline: Failed login with empty credential [90m# src/test/resources/Feature/Login.feature:46[0m
     [32mGiven [0m[32muser is on Login page[0m                        [90m# LoginStepDefinition.user_is_on_Login_page()[0m
     [32mAnd [0m[32mLogin form displayed[0m                           [90m# LoginStepDefinition.login_form_displayed()[0m
     [32mWhen [0m[32muser enters username "[0m[32m[1m[0m[32m"[0m                       [90m# LoginStepDefinition.user_enters_username(String)[0m
@@ -97,7 +97,7 @@ Feature: Login
     [32mThen [0m[32muser should see "[0m[32m[1mInvalid Email[0m[32m"[0m               [90m# LoginStepDefinition.user_should_see(String)[0m
 
   @LoginFailureFieldValidation
-  Scenario Outline: Failed login due to invalid Email or Pasword format [90m# Login.feature:49[0m
+  Scenario Outline: Failed login due to invalid Email or Pasword format [90m# src/test/resources/Feature/Login.feature:49[0m
     [36mGiven [0m[36muser is on Login page[0m
     [36mAnd [0m[36mLogin form displayed[0m
     [36mWhen [0m[36muser enters username "<userName>"[0m
@@ -108,7 +108,7 @@ Feature: Login
     Examples: 
 
   @LoginFailureFieldValidation
-  Scenario Outline: Failed login due to invalid Email or Pasword format [90m# Login.feature:59[0m
+  Scenario Outline: Failed login due to invalid Email or Pasword format [90m# src/test/resources/Feature/Login.feature:59[0m
     [32mGiven [0m[32muser is on Login page[0m                                         [90m# LoginStepDefinition.user_is_on_Login_page()[0m
     [32mAnd [0m[32mLogin form displayed[0m                                            [90m# LoginStepDefinition.login_form_displayed()[0m
     [32mWhen [0m[32muser enters username "[0m[32m[1mcainaisi@gmail[0m[32m"[0m                          [90m# LoginStepDefinition.user_enters_username(String)[0m
@@ -117,7 +117,7 @@ Feature: Login
     [32mThen [0m[32muser should see "[0m[32m[1mInvalid Email[0m[32m"[0m                                [90m# LoginStepDefinition.user_should_see(String)[0m
 
   @loginWithFB
-  Scenario: Login using Facebook account            [90m# Login.feature:63[0m
+  Scenario: Login using Facebook account            [90m# src/test/resources/Feature/Login.feature:63[0m
     [32mGiven [0m[32muser is on Login page[0m                     [90m# LoginStepDefinition.user_is_on_Login_page()[0m
     [32mAnd [0m[32mLogin form displayed[0m                        [90m# LoginStepDefinition.login_form_displayed()[0m
     [32mWhen [0m[32muser clicks Login with Facebook[0m            [90m# LoginStepDefinition.user_clicks_Login_with_Facebook()[0m
